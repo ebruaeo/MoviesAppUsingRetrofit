@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            app:layout_constraintGuide_begin="150dp" />
+            app:layout_constraintGuide_end="242dp" />
 
         <TextView
             android:id="@+id/tvMovieName"
@@ -46,6 +46,7 @@
             app:layout_constraintTop_toBottomOf="@id/tvMovieName" />
 
         <TextView
+            android:id="@+id/tvRate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Rate"
@@ -66,6 +67,7 @@
             app:layout_constraintTop_toBottomOf="@id/imgRate" />
 
         <TextView
+            android:id="@+id/tvLang"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Lang"
@@ -86,6 +88,7 @@
             app:layout_constraintTop_toBottomOf="@id/imgLang" />
 
         <TextView
+            android:id="@+id/tvDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Date"
